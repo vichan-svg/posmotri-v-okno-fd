@@ -108,9 +108,10 @@ a {
 }
 
 .content__video-card {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+  display: grid;
+  grid-template-columns: 194px 1fr;
+  align-items: flex-start;
+  gap: 16px;
 }
 
 .content__video-card-thumbnail {
@@ -121,7 +122,7 @@ a {
 }
 
 .content__video-card-description-container {
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .search-form__fieldset-title {
@@ -145,4 +146,14 @@ a {
 
 .content__card-link {
   color: #FFF;
+}
+
+.content__video-card-title {
+  font-family: 'Oswald';
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 30px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
