@@ -205,3 +205,19 @@ input {
 .search-form__textfield::placeholder {
   color: rgb(255 255 255 / 0.7);
 }
+
+.search-form__textfield:focus {
+  outline: none;
+}
+
+.search-form__label:has(.search-form__textfield:focus-visible) {
+  outline: 1px solid #FFF;
+  outline-offset: 1px;
+}
+
+.search-form__pseudo-checkbox {
+  width: 19px;
+  height: 19px;
+  border: 1px solid #FFF;
+  padding: 1px;
+}
