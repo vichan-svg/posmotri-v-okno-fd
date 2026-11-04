@@ -181,3 +181,10 @@ a {
 .search-form__fieldset {
   border: none;
 }
+
+.search-form__label {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  width: fit-content;
+}
