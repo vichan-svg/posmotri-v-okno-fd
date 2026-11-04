@@ -62,15 +62,11 @@ ol {
   gap: 30px;
 }
 
-.result {
-  inline-size: 711px;
-  block-size: 456px;
-}
-
 .result__video {
   display: block;
-  max-width: 100%;
-  height: auto;
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: cover;
 }
 
 .search-form{
@@ -91,4 +87,10 @@ ol {
   gap: 26px;
   align-self: stretch;
   flex: 1;
+}
+
+.result__video-container {
+  inline-size: 711px;
+  block-size: 386px;
+  margin-bottom: 16px;
 }
