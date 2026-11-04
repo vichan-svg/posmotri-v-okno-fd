@@ -40,6 +40,9 @@ ol {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
 /* Кастомный скроллбар */
 .custom-scrollbar::-webkit-scrollbar {
   width: 4px;
@@ -119,4 +122,27 @@ ol {
 
 .content__video-card-description-container {
   flex-grow: 1
+}
+
+.search-form__fieldset-title {
+  margin-block-end: 5px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.title {
+  font-family: 'OSWALD';
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 75px;
+  color: #FFF;
+  line-height: 1;
+}
+
+.content__accent {
+  color: #545050;
+}
+
+.content__card-link {
+  color: #FFF;
 }
