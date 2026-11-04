@@ -109,3 +109,14 @@ ol {
     flex-direction: row;
     align-items: flex-start;
 }
+
+.content__video-card-thumbnail {
+  block-size: 103px;
+  min-inline-size: 194px;
+  object-fit: cover;
+  object-position: right;
+}
+
+.content__video-card-description-container {
+  flex-grow: 1
+}
