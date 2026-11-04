@@ -9,8 +9,11 @@ html {
 }
 
 .page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   inline-size: 1200px;
-  block-size: 100%;
+  min-height: 100vh;
   margin: auto;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
@@ -48,4 +51,44 @@ ol {
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
   background-color: #D9D9D9;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  inline-size: 1140px;
+  block-size: 534px;
+  gap: 30px;
+}
+
+.result {
+  inline-size: 711px;
+  block-size: 456px;
+}
+
+.result__video {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.search-form{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.content__list-container {
+  block-size: 339px;
+  overflow: scroll;
+}
+
+.content__details {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  align-self: stretch;
+  flex: 1;
 }
