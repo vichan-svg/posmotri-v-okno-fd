@@ -79,6 +79,9 @@ ol {
 .content__list-container {
   block-size: 339px;
   overflow: scroll;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
 }
 
 .content__details {
@@ -93,4 +96,16 @@ ol {
   inline-size: 711px;
   block-size: 386px;
   margin-bottom: 16px;
+}
+
+.content__list {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+
+.content__video-card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
 }
