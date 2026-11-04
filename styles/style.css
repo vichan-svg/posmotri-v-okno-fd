@@ -110,7 +110,7 @@ a {
 .content__video-card {
   display: grid;
   grid-template-columns: 194px 1fr;
-  align-items: flex-start;
+  align-items: stretch;
   gap: 16px;
 }
 
@@ -121,8 +121,13 @@ a {
   object-position: right;
 }
 
-.content__video-card-description-container {
-  flex-grow: 1;
+.content__video-card-description {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+  line-height: 16.2px;
+  overflow-wrap: anywhere;
 }
 
 .search-form__fieldset-title {
