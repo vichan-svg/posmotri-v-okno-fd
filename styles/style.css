@@ -84,11 +84,12 @@ input {
 }
 
 .content__list-container {
-  block-size: 339px;
+  max-block-size: 399px;
   overflow: scroll;
   display: flex;
   gap: 30px;
   flex-direction: column;
+  padding-right: 3px;
 }
 
 .content__details {
@@ -248,4 +249,41 @@ input {
 
 .search-form__label:hover .search-form__label-text {
   text-decoration: underline;
+}
+
+.button {
+  border: 1px solid #FFF;
+  color: #FFF;
+  font-weight: 700;
+  background-color: transparent;
+  font-size: 16px;
+}
+
+.search-form__submit-button{ 
+  margin-top: 17px;
+  padding: 7px 73px;
+  align-self: flex-end;
+}
+
+.more-button {
+  align-self: stretch;
+  padding: 7px 0;
+  margin: 0px 6px;
+}
+
+.button:hover {
+  text-decoration: underline;
+}
+
+.button:active {
+  background-color: #545050;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:focus-visible {
+  outline: 1px solid #FFF;
+  outline-offset: 1px;
 }
