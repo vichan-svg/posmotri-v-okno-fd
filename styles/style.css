@@ -90,7 +90,6 @@ input {
   display: flex;
   gap: 30px;
   flex-direction: column;
-  padding-right: 3px;
   position: relative;
 }
 
@@ -112,7 +111,7 @@ input {
 
 .content__list {
   display: flex;
-  gap: 30px;
+  gap: 29px;
   flex-direction: column;
 }
 
@@ -120,7 +119,6 @@ input {
   display: grid;
   grid-template-columns: 194px 1fr;
   align-items: stretch;
-  gap: 16px;
 }
 
 .content__video-card-thumbnail {
