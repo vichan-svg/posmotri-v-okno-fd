@@ -65,7 +65,6 @@ input {
   flex-direction: row;
   align-items: flex-end;
   inline-size: 1140px;
-  max-block-size: 534px;
   gap: 30px;
 }
 
@@ -84,13 +83,12 @@ input {
 }
 
 .content__list-container {
-  max-width: 100%;
+  max-block-size: 293px;
   overflow: auto;
   display: flex;
   gap: 30px;
   flex-direction: column;
   position: relative;
-  
 }
 
 .content__details {
