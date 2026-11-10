@@ -65,7 +65,7 @@ input {
   flex-direction: row;
   align-items: flex-end;
   inline-size: 1140px;
-  block-size: 534px;
+  max-block-size: 534px;
   gap: 30px;
 }
 
@@ -80,8 +80,7 @@ input {
 .search-form {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
+  gap: 40px;
 }
 
 .content__list-container {
@@ -91,6 +90,7 @@ input {
   gap: 30px;
   flex-direction: column;
   position: relative;
+  
 }
 
 .content__details {
@@ -144,7 +144,7 @@ input {
 }
 
 .title {
-  font-family: 'OSWALD';
+  font-family: 'OSWALD', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   font-size: 75px;
@@ -162,7 +162,7 @@ input {
 }
 
 .content__video-card-title {
-  font-family: 'Oswald';
+  font-family: 'OSWALD', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 30px;
@@ -199,6 +199,8 @@ input {
 }
 
 .search-form__textfield {
+  font-family: inherit;
+  font-weight: 400;
   width: 225px;
   height: 27px;
   background-color: transparent;
@@ -256,6 +258,7 @@ input {
 }
 
 .button {
+  font-family: inherit;
   border: 1px solid #FFF;
   color: #FFF;
   font-weight: 700;
